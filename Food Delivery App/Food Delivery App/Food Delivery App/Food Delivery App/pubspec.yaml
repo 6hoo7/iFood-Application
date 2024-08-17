@@ -1,0 +1,51 @@
+name: food_delivery_app
+description: A new Flutter project.
+
+publish_to: 'none' #Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.3
+  http: ^0.13.4
+  url_launcher: ^6.0.9
+  curved_navigation_bar: ^1.0.4
+  cupertino_icons: ^1.0.2
+  provider: ^6.1.2
+  flutter_credit_card: ^4.0.1
+  flutter_rating_bar: ^4.0.1
+  carousel_slider: ^4.2.1
+  intl: ^0.19.0
+  smooth_page_indicator: ^1.1.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/images/burger/
+    - lib/images/sides/
+    - lib/images/salads/
+    - lib/images/drinks/
+    - lib/images/desserts/
+    - lib/images/facebook.png
+    - lib/images/google.png
+    - lib/images/logo.png
+    - lib/images/background.png
+    - lib/images/banner1.png
+    - lib/images/banner2.png
+    - lib/images/banner3.png
+    - lib/images/default_avatar.jpg
+    
+
+
